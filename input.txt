@@ -1,0 +1,96 @@
+1. FCFS
+n = 3
+Processes   AT      BT 
+0           0       5
+1           6       7
+2           6       3
+
+Output : 
+    average TAT = 7.333333
+    average WT = 2.333333
+    throughput = 0.187500
+    CPU utilization = 93.750000%
+
+---------------------------------------------------------------------------------------------------
+
+2. SJF
+n = 5
+Processes   AT      BT 
+0           0       5
+1           8       4
+2           9       6
+3           8       2
+4           10      3
+
+Output : 
+    average TAT = 6.600000
+    average WT = 2.600000
+    throughput = 0.217391
+    CPU utilization = 86.956519%
+
+---------------------------------------------------------------------------------------------------
+
+3. Highest Priority First
+
+n = 3
+Processes   AT      BT      Priority
+0           0       3       2
+1           10      4       1
+2           20      2       3
+
+
+Output : 
+    average TAT = 3.000000
+    average WT = 0.000000
+    throughput = 0.136364
+    CPU utilization = 40.9091%
+
+
+n = 4
+Processes   AT      BT      Priority
+0           0       5       2
+1           1       3       1
+2           2       8       4
+3           3       6       3
+
+
+Output : 
+    average TAT = 10.75
+    average WT = 5.25
+    throughput = 0.181818
+    CPU utilization = 100%
+
+
+---------------------------------------------------------------------------------------------------
+
+4. Round-Robin
+
+n = 3
+Processes   AT      BT 
+0           0       5
+1           1       7
+2           3       4
+
+
+Output : 
+    average TAT = 12.00
+    average WT = 6.66667
+    throughput = 0.1875
+    CPU utilization = 100%
+
+---------------------------------------------------------------------------------------------------
+
+5. shortest remaning time First
+
+n = 3
+Processes   AT      BT 
+0           0       5
+1           3       9
+2           12      6
+
+
+Output : 
+    average TAT = 14
+    average WT = 6
+    throughput = 0.153846
+    CPU utilization = 76.9231%
