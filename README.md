@@ -5,7 +5,7 @@ This project implements various CPU scheduling algorithms in C++:
 
 - **First Come First Serve (FCFS)**
 - **Shortest Job First (SJF)**
-- **Shortest Reaming Time Next (SRTN)**
+- **Shortest Remaing Time Next (SRTN)**
 - **Priority Scheduling** (Preemptive)
 - **Round Robin**
 
